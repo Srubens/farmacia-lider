@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia Lider - Contato</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/leaflet/leaflet.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css"/>
+</head>
+<body>
+    <div class="main">
+
+        <div class="container-fluid flex-column flex-md-row d-flex align-items-center justify-content-between p-2 bg-primary text-white">
+            <div class="col-12 col-md-7" >
+                <p>Discounto de 35% na primeira compra online neste mês.</p>
+            </div>
+            <div class="d-flex justify-content-end col-12 col-md-5 flex-md-row flex-column" >
+                <div class="col-12 col-md-6" >
+                    <span>
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <span class="ml-2" >contatolider@email.com.br</span>
+                </div>
+                <div class="col-12 col-md-5" >
+                    <span class="mr-5" >
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="ml-3" >81 98756-9962</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <nav class="menu_header container-fluid" >
+            <div class="d-flex justify-content-between align-items-center p-2 flex-md-row flex-column">
+                <div class="col-12 col-md-2 d-flex justify-content-between" >
+                    <div class="">
+                        <a href="#">
+                            <img style="max-width: 100%;" src="./assets/images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class=" d-flex justify-content-end">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+                                <i class="fa-solid fa-bars"></i>
+                            </span>
+                            
+                        </button>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between col-12 col-md-10 align-items-center flex-column flex-md-row">
+                    <div class="col-12 col-md-8 " >
+                        <div class="input-group">
+                            <input class="form-control " type="search" placeholder="O que você procura?">
+                            <div class="input-group-append">
+                                <button type="submit" class="form-control ">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </div><!-- end input  -->
+                    <div class="col-md-2 col-12" >
+                        <div class="d-flex justify-content-around mt-4">
+                            <div>
+                                <span>
+                                    <a href="./login.html" title="login" >
+                                        <i class="fa-solid fa-user"></i>
+                                        Entrar
+                                    </a>
+                                </span>
+                            </div>
+                            <div>
+                                <span>
+                                    
+                                    <a href="#" title="carrinho" >
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>0</span>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div> <!-- end user & carrinho  -->
+                </div>
+            </div>
+            <div class="navbar navbar-expand-lg">   
+                <div class="container">
+                    <div class="d-flex justify-content-center flex-md-row flex-column">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto ">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="./sobre.html">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="./loja.html">Loja</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Cuidado Infantil</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Medicamentos e Saúde</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Higiene e Beleza</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Monte sua lojinha</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="./contato.html">Contato</a>
+                            </li>
+                            
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav><!-- end nav  -->
+
+        <div class="main_content">
+
+            <div class="container">
+                <div class=" m-5">
+                    <div id="map" ></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <header>
+                    <br/>
+                    <h4>Tire suas dúvidas, entre em contato conosco</h4>
+                    <br/>
+                </header>
+                <div class="col-12 col-md-12">
+    
+                    <form action="" class="main_form">
+                       <label >E-mail</label>
+                       <input type="email" class="form-control"/>
+                       <label >Titulo</label>
+                       <input type="text" class="form-control"/>
+                       <br/>
+                       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+                       <div class="btn btn-primary col-2 m-4">Enviar</div>
+                    </form>
+                </div>
+            </div>
+
+            
+
+
+        </div><!--  end main_content  -->
+
+        <div class="main_footer bg-dark text-white p-3">
+            <div class="container">
+                <div class="d-flex flex-column flex-md-row justify-content-between p-0">
+                    <div>
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li><a href="#">Medicamentos Especiais</a></li>
+                            <li><a href="#">Convenios e Parcerias</a></li>
+                            <li><a href="#">Programa de assinatura</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Institucional</h4>
+                        <ul>
+                            <li><a href="#">Minha Lider</a></li>
+                            <li><a href="#">Trabalhe conosco</a></li>
+                            <li><a href="#">Portal</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Atendimento</h4>
+                        <ul>
+                            <li><a href="#">Perguntas Frequentes</a></li>
+                            <li><a href="#">Política de privacidade</a></li>
+                            <li><a href="#">SAC Lider central de atendimento</a></li>
+                            <li><a href="#">Política Troca e Devolução</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>Rua Maria da Gloria Alboquerque 53417-332</p>
+                        <span class="mr-5" >
+                            <i class="fa-solid fa-phone"></i>
+                            <span class="ml-3" >81 98756-9962</span>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <span class="ml-2" >contatolider@email.com.br</span>
+                        <br/>
+                        <br/>
+                        <p>Horario de atendimento de segunda às sexta 8:00 às 21:00 <br/>Aos sábados 9:00 às 17:00</p>
+                        <p>Aceitamos cartões</p>
+                        <span class="main_card" >
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                        </span>
+                        <span class="main_card" >
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </span>
+                        <span class="main_card" >
+                            <i class="fa-brands fa-cc-paypal"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+      
+    </div><!-- end main  -->
+    
+    
+    
+    <script src="./assets/js/jquery-3.3.1.slim.min.js"></script>   
+    <script src="./assets/js/bootstrap.bundle.min.js"></script> 
+    <script src="./assets/leaflet/leaflet.js"></script> 
+    <script src="./assets/js/index.js"></script> 
+</body>
+</html>
+

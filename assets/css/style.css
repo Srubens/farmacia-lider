@@ -1,0 +1,90 @@
+.menu_header{
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+}
+
+.main_nossos_servicos_icons{
+    margin-top: 32px;
+}
+
+.main_nossos_servicos_icons span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main_nossos_servicos_icons h2{
+    font-size: 1.3em;
+    text-align: center;
+    margin:30px ;
+}
+
+.main_nossos_servicos_icons span i{
+    font-size: 62px;
+    
+}
+
+.main_promocao header h1,
+.main_novidades header h1,
+.main_promocao_semana header h1{
+    font-size: 1.6em;
+}
+
+.main_product_promocao h4,
+.main_product_novidades h4{
+    font-size: 1.1em;
+    margin: 20px;
+    text-align: center;
+}
+
+.main_product_promocao p,
+.main_product_novidades p{
+    text-align: center;
+}
+
+.main_promocao_semana{
+    background: #efefef;
+    padding: 20px;
+}
+
+.main_product_promocao_semana_text{
+    margin-top: 150px;
+}
+
+
+.main_card i{
+    font-size: 32px;
+}
+
+#map { height: 50vh; }
+
+@media (min-width: 576px){
+    .fa-solid.fa-bars{
+        display: block;
+    }
+}
+
+@media(min-width: 992px){
+    .fa-solid.fa-bars{
+        display: none;
+    }
+}
