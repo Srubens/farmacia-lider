@@ -1,10 +1,2 @@
-disconto da semana + email e phone
-logo + busca + menu + user conta + carrinho
-slide
-icons do awser fonts 
-produtos em promoção 
-produtos novos
-fale com especialista
-lojas parceiras 
-depoimentos
-logo + menu + suporte 
+# Farmacia Lider Template
+<p>Projeto em html, css e javascript, utilizando o bootstrap 4, visando futuramente ser implementado no wordpress.</p>
