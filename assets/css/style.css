@@ -21,6 +21,10 @@ ul{
     padding: 0;
 }
 
+.nav-item:hover{
+    text-transform:uppercase;
+}
+
 .main_nossos_servicos_icons{
     margin-top: 32px;
 }
